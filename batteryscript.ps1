@@ -15,6 +15,7 @@ else{
 "this aint a laptop u idiot :P"
 exit
 }
+
 do {
 $batterypercentage = (gwmi win32_battery).estimatedchargeremaining
 $batterytime = ((gwmi win32_battery).estimatedruntime)
